@@ -1,0 +1,21 @@
+[24-Feb-2021 14:48:28 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/customer/www/mipgenlinea.com/public_html/candelaria/eliminar_actividad.php on line 5
+[24-Feb-2021 14:48:52 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/customer/www/mipgenlinea.com/public_html/candelaria/eliminar_actividad.php on line 5
+[24-Feb-2021 14:50:01 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/customer/www/mipgenlinea.com/public_html/candelaria/eliminar_actividad.php on line 5
+[24-Feb-2021 14:51:17 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/customer/www/mipgenlinea.com/public_html/candelaria/eliminar_actividad.php on line 5
+[24-Feb-2021 14:51:30 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/customer/www/mipgenlinea.com/public_html/candelaria/eliminar_actividad.php on line 5
+[24-Feb-2021 14:52:29 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home/customer/www/mipgenlinea.com/public_html/candelaria/eliminar_actividad.php on line 5
+[24-Feb-2021 19:31:28 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2021 00:00:00) at position 0 (1): Unexpected character in /home/customer/www/mipgenlinea.com/public_html/candelaria/plantilla_informe_supervision.php:147
+Stack trace:
+#0 /home/customer/www/mipgenlinea.com/public_html/candelaria/plantilla_informe_supervision.php(147): DateTime->__construct('18/02/2021 00:0...')
+#1 {main}
+  thrown in /home/customer/www/mipgenlinea.com/public_html/candelaria/plantilla_informe_supervision.php on line 147
+[24-Feb-2021 19:33:44 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2021 00:00:00) at position 0 (1): Unexpected character in /home/customer/www/mipgenlinea.com/public_html/candelaria/plantilla_informe_supervision.php:147
+Stack trace:
+#0 /home/customer/www/mipgenlinea.com/public_html/candelaria/plantilla_informe_supervision.php(147): DateTime->__construct('18/02/2021 00:0...')
+#1 {main}
+  thrown in /home/customer/www/mipgenlinea.com/public_html/candelaria/plantilla_informe_supervision.php on line 147
+[24-Feb-2021 19:35:57 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2021 00:00:00) at position 0 (1): Unexpected character in /home/customer/www/mipgenlinea.com/public_html/candelaria/plantilla_informe_supervision.php:147
+Stack trace:
+#0 /home/customer/www/mipgenlinea.com/public_html/candelaria/plantilla_informe_supervision.php(147): DateTime->__construct('18/02/2021 00:0...')
+#1 {main}
+  thrown in /home/customer/www/mipgenlinea.com/public_html/candelaria/plantilla_informe_supervision.php on line 147

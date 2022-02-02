@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<style>
+		/* cuando vayamos a imprimir ... */
+		@media print{
+			/* indicamos el salto de pagina */
+			.saltoDePagina{
+				display:block;
+				page-break-before:always;
+			}
+		}
+	</style>
+</head>
+ 
+<body>
+ 
+	<div>
+		Este texto aparece en la primera pagina
+	</div>
+ 
+	<div class="saltoDePagina"></div>
+ 
+	<div>
+		Este texto aparece en la segunda pagina
+	</div>
+ 
+</body>
+</html>

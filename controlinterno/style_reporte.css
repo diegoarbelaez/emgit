@@ -1,0 +1,105 @@
+@page {
+    margin-top: 5mm;
+    margin-right: 5mm;
+    margin-bottom: 10mm;
+    margin-left: 5mm;
+    margin-footer: 5mm;
+    odd-footer-name: html_myFooter1;
+    even-footer-name: html_myFooter1;
+}
+
+@media print {
+    .pagebreak {
+        /*page-break-before: always; */
+        /*page-break-inside:avoid; */
+    }
+    /* page-break-after works, as well */
+}
+
+.actividad {
+    display: block;
+    /*page-break-inside:avoid;*/
+    color: #000000;
+    background-color: #b9b9b9;
+    border-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: auto;
+    margin: 0 0 11px;
+    text-align: justify;
+}
+
+.hecho {
+    color: #F90B6D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0 0 0px;
+    text-align: justify;
+}
+
+.texto_hecho {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: auto;
+    margin: 0 0 0px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: auto;
+    margin: 0;
+}
+
+ul {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+table {
+    /* border: 1px solid rgb(122, 122, 122); */
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 1;
+    margin-bottom: 1px;
+    /* border-color: #808080; */
+}
+
+table th, table td {
+    text-align: center;
+    border: 1px solid #000000;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 12px;
+}
+
+.tabla_invisible_incortable {
+    padding-left: 0 px;
+    width: 100%;
+    border: none;
+    page-break-inside: avoid;
+}
+
+.marco {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.informe_financiero {
+    page-break-inside: avoid;
+    border: 1px solid black;
+    padding: 10px;
+}
